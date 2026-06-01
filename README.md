@@ -72,8 +72,8 @@ Full CRUD. No paywalls. No click fatigue.
 ## Install
 
 ```bash
-git clone https://github.com/Akash-Sharma-1/splitwise_updation
-cd splitwise_updation
+git clone https://github.com/Akash-Sharma-1/expTUI
+cd expTUI
 pip install -r requirements.txt
 ```
 
@@ -84,8 +84,8 @@ pip install -r requirements.txt
 All credentials live in one file:
 
 ```bash
-mkdir -p ~/.config/splitwise-tui
-nano ~/.config/splitwise-tui/config.toml
+mkdir -p ~/.config/exp-tui
+nano ~/.config/exp-tui/config.toml
 ```
 
 ### Splitwise

@@ -12,7 +12,7 @@ pip install -r requirements.txt
 python -m exptui
 ```
 
-Config: `~/.config/splitwise-tui/config.toml`
+Config: `~/.config/exp-tui/config.toml`
 
 ---
 
