@@ -1,0 +1,130 @@
+/* ── App ─────────────────────────────────────────────────────────────── */
+SplitwiseTUIApp {
+    background: $surface;
+}
+
+/* ── Main Screen ─────────────────────────────────────────────────────── */
+#main-layout {
+    layout: vertical;
+    height: 1fr;
+}
+
+#group-row {
+    height: 3;
+    padding: 0 1;
+    background: $panel;
+    align: left middle;
+}
+
+#group-label {
+    width: auto;
+    padding: 0 1 0 0;
+    color: $text-muted;
+}
+
+#group-select {
+    width: 40;
+}
+
+#search-bar-container {
+    height: 3;
+    padding: 0 1;
+    background: $panel;
+    border-bottom: tall $primary;
+}
+
+#search-input {
+    width: 1fr;
+    border: none;
+    background: $panel;
+}
+
+#expense-table-container {
+    height: 1fr;
+    overflow-y: auto;
+}
+
+ExpenseTable {
+    height: 1fr;
+}
+
+/* ── Status Bar ──────────────────────────────────────────────────────── */
+#status-bar {
+    height: 1;
+    background: $primary;
+    color: $text;
+    padding: 0 2;
+    dock: bottom;
+}
+
+/* ── Modal base ──────────────────────────────────────────────────────── */
+ModalScreen {
+    align: center middle;
+}
+
+.modal-container {
+    background: $surface;
+    border: thick $primary;
+    padding: 1 2;
+    width: 70;
+    height: auto;
+    max-height: 90vh;
+}
+
+.modal-title {
+    text-style: bold;
+    color: $accent;
+    margin-bottom: 1;
+}
+
+/* ── Form fields ─────────────────────────────────────────────────────── */
+.field-label {
+    color: $text-muted;
+    margin-top: 1;
+}
+
+.field-input {
+    width: 1fr;
+    margin-bottom: 0;
+}
+
+.field-select {
+    width: 1fr;
+    margin-bottom: 0;
+}
+
+/* ── Button row ──────────────────────────────────────────────────────── */
+.button-row {
+    layout: horizontal;
+    height: 3;
+    margin-top: 1;
+    align: right middle;
+}
+
+.button-row Button {
+    margin-left: 1;
+}
+
+/* ── Confirm delete ──────────────────────────────────────────────────── */
+.confirm-container {
+    background: $surface;
+    border: thick $error;
+    padding: 2 3;
+    width: 60;
+    height: auto;
+}
+
+.confirm-title {
+    text-style: bold;
+    color: $error;
+    margin-bottom: 1;
+}
+
+.confirm-message {
+    margin-bottom: 1;
+}
+
+/* ── Loading indicator ───────────────────────────────────────────────── */
+LoadingIndicator {
+    height: 1;
+}
